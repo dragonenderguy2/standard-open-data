@@ -1,0 +1,14 @@
+{
+  "@context": "http://schema.org",
+  "@type": "Dataset",
+  "name": "Exemple de Jeu de Données",
+  "description": "Description de l'exemple de jeu de données.",
+  "url": "http://exemple.com/dataset",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "CSV",
+      "contentUrl": "http://exemple.com/dataset.csv"
+    }
+  ]
+}
