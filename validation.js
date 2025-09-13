@@ -7,7 +7,7 @@ const datasetSchema = {
     name: { type: 'string' },
     description: { type: 'string' },
     url: { type: 'string', format: 'uri' },
-    distribution: { type: 'array' }
+    distribution: { type: 'array', items: { type: 'object' } }
   },
   required: ['name', 'url']
 };
