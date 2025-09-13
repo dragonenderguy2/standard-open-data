@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 
 // Exemple de route pour l'API
 app.get('/api/data', (req, res) => {
-  res.json({ message: 'Bienvenue dans lAPI de données ouvertes !' });
+  res.json({ message: 'Bienvenue dans l API de données ouvertes !' });
 });
 
 app.listen(PORT, () => {
