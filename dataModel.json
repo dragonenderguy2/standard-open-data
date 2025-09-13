@@ -1,7 +1,7 @@
 {
   "@context": "http://schema.org",
   "@type": "Dataset",
-  "name": "Exemple de Jeu de Données",
+  "name": "Exemple de Jeu de Données - Données Climatiques",
   "description": "Description de l'exemple de jeu de données.",
   "url": "http://exemple.com/dataset",
   "distribution": [
