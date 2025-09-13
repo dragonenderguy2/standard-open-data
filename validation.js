@@ -9,7 +9,7 @@ const datasetSchema = {
     url: { type: 'string', format: 'uri' },
     distribution: { type: 'array', items: { type: 'object' } }
   },
-  required: ['name', 'url']
+  required: ['name', 'url', 'description']
 };
 
 function validateDataset(dataset) {
